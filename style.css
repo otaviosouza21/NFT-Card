@@ -5,7 +5,12 @@ body{
     background: hsl(217, 54%, 11%);
     font-family: 'Outfit', sans-serif;
     padding: 0;
+     min-height: 100vh;
+    display: grid;
+    place-content: center;
 }
+
+
 
 .bloco{
     display: flex;
